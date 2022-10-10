@@ -4,6 +4,8 @@ import Movies from './classes/Movies'
 import ColorProducts from './exercises/ColorProducts'
 import Form from './classes/Form/Form'
 import FirstPage from './exercises/FirstPage/FirstPage'
+import InitialStates from './classes/States/InitialStates'
+import UseState from './classes/States/UseState'
 
 const examples = [
 <Status/>, 
@@ -13,13 +15,15 @@ const examples = [
     <Form info="Formulário de Tal"/>
     <Form info="Segundo formulário" />
 </>,
-<FirstPage />
+<FirstPage />,
+<InitialStates />,
+<UseState />
 ]
 
 const App = () => {
     return(
         <div>
-            {examples[4]}
+            {examples[6]}
         </div>
     )
 }
